@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  line-height: normal;
+  color-scheme: light;
+
+  --slate-gray-50: #f8fafc;
+  --slate-gray-100: #f1f5f9;
+  --slate-gray-200: #e2e8f0;
+  --slate-gray-300: #cad5e2;
+  --slate-gray-400: #90a1b9;
+  --slate-gray-500: #62748e;
+  --slate-gray-600: #45556c;
+  --slate-gray-700: #314158;
+  --slate-gray-800: #1d293d;
+  --slate-gray-900: #0f172b;
+  --slate-gray-950: #020618;
+
+  --red-50: #fef2f2;
+  --red-100: #ffe2e2;
+  --red-200: #ffc9c9;
+  --red-300: #ffa2a2;
+  --red-400: #ff6467;
+  --red-500: #fb2c36;
+  --red-600: #e7000b;
+  --red-700: #c10007;
+  --red-800: #9f0712;
+  --red-900: #82181a;
+  --red-950: #460809;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /* background-color: var(--slate-gray-100); */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+}
